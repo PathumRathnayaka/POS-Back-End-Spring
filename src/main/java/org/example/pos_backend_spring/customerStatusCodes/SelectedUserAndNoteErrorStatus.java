@@ -1,15 +1,16 @@
-package lk.ijse.gdse.aad67.notecollecter67.customStatusCodes;
+package org.example.pos_backend_spring.customerStatusCodes;
 
-import lk.ijse.gdse.aad67.notecollecter67.dto.NoteStatus;
-import lk.ijse.gdse.aad67.notecollecter67.dto.UserStatus;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.example.pos_backend_spring.dto.CustomerStatus;
+import org.example.pos_backend_spring.dto.ItemStatus;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class SelectedUserAndNoteErrorStatus implements UserStatus, NoteStatus {
+public class SelectedUserAndNoteErrorStatus implements CustomerStatus, ItemStatus {
     private int statusCode;
     private String statusMessage;
 }

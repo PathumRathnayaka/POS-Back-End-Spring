@@ -1,9 +1,9 @@
-package lk.ijse.gdse.aad67.notecollecter67;
+package org.example.pos_backend_spring;
 
 import jakarta.servlet.MultipartConfigElement;
 import jakarta.servlet.ServletRegistration;
-import lk.ijse.gdse.aad67.notecollecter67.config.WebAppConfig;
-import lk.ijse.gdse.aad67.notecollecter67.config.WebAppRootConfig;
+import org.example.pos_backend_spring.config.WebAppConfig;
+import org.example.pos_backend_spring.config.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {

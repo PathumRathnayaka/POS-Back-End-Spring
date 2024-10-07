@@ -1,4 +1,4 @@
-package lk.ijse.gdse.aad67.notecollecter67.entity;
+package org.example.pos_backend_spring.entity;
 
 import java.io.Serializable;
 
