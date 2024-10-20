@@ -4,9 +4,35 @@
 <p align="center">
   <a href="#-introduction">Introduction</a> · <a href="#-installation">Installation</a> · <a href="#-faq">FAQ</a> · · <a href="#-license">License</a> · <a href="#-credits">Credits</a>
 </p>
+
 ## 👋 Introduction
-This project is a simple POS (Point of Sale) system developed as part of my semester final project. The backend system is designed using Java with the Spring framework and deployed on Apache Tomcat. It connects to a MySQL database for managing product, order, and customer information. The backend handles business logic, data processing, and API requests from the frontend, which is built with Bootstrap.
-Java & Spring Framework: For building RESTful APIs and handling business logic.
-Apache Tomcat: For serving the backend application.
-MySQL: As the database for storing all system data.
-Bootstrap Frontend: Seamlessly integrated with the backend for a smooth user experience.
+
+Open Source Point of Sale is a web-based point of sale system. The application is written in PHP, uses MySQL (or MariaDB) as the data storage back-end, and has a simple but intuitive user interface.
+
+The latest `3.4` version is a complete overhaul of the original software. It uses CodeIgniter 4 as a framework and is based on Bootstrap 3 using Bootswatch themes. Along with improved functionality and security.
+
+The features include:
+
+- Stock management (items and kits with an extensible list of attributes)
+- VAT, GST, customer, and multi tiers taxation
+- Sale register with transactions logging
+- Quotation and invoicing
+- Expenses logging
+- Cash up function
+- Printing and emailing of receipts, invoices and quotations
+- Barcode generation and printing
+- Database of customers and suppliers
+- Multiuser with permission control
+- Reporting on sales, orders, expenses, inventory status and more
+- Receivings
+- Gift cards
+- Rewards
+- Restaurant tables
+- Messaging (SMS)
+- Multilanguage
+- Selectable Bootstrap based UI theme with Bootswatch
+- MailChimp integration
+- Optional Google reCAPTCHA to protect the login page from brute force attacks
+- GDPR ready
+
+## 🧪 Live Demo
