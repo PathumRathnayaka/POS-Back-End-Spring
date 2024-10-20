@@ -5,10 +5,10 @@ import java.util.UUID;
 
 public class AppUtil {
     public static String generateItemId(){
-        return "NOTE-"+UUID.randomUUID();
+        return "Item-"+UUID.randomUUID();
     }
     public static String generateCustomerId(){
-        return "USER-"+UUID.randomUUID();
+        return "Customer-"+UUID.randomUUID();
     }
 
 }

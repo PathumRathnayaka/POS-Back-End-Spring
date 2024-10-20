@@ -13,7 +13,6 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "customer")
 public class CustomerEntity implements SuperEntity {
     @Id
     private String custId;

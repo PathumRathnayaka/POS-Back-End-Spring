@@ -37,7 +37,8 @@ public class ItemServiceIMPL implements ItemService {
 
     @Override
     public List<ItemDTO> getAllItem() {
-        return itemMapping.asItemDTOList(itemDAO.findAll());
+        List<ItemEntity> allItems=itemDAO.findAll();
+        return itemMapping.asItemDTOList(allItems);
     }
 
     @Override
@@ -67,7 +68,7 @@ public class ItemServiceIMPL implements ItemService {
             throw new ItemNotFoundException("Item not found");
         }else {
             findItem.get().setName(itemDTO.getName());
-            findItem.get().setQty(Integer.parseInt(itemDTO.getQuantity()));
+            findItem.get().setQty(Integer.parseInt(String.valueOf(itemDTO.getQty())));
             findItem.get().setPrice(itemDTO.getPrice());
         }
     }

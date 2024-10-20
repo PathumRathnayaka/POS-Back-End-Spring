@@ -11,6 +11,6 @@ import org.example.springposnew.dto.ItemStatus;
 public class ItemDTO implements ItemStatus {
     private String code;
     private String name;
-    private String quantity;
-    private Double price;
+    private double price;
+    private int qty;
 }

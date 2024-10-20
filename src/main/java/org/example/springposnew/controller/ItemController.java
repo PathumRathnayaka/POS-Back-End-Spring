@@ -40,7 +40,7 @@ public class ItemController {
     @GetMapping(value = "/{itemID}",produces = MediaType.APPLICATION_JSON_VALUE)
     public ItemStatus getSelectedNote(@PathVariable ("itemID") String itemId) {
         if (!RegexProcess.itemIdMatcher(itemId)) {
-            return new SelectedErrorStatus(1, "Note ID is not valid");
+            return new SelectedErrorStatus(1, "Item ID is not valid");
         }
         return itemService.getItem(itemId);
     }
