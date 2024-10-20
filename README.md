@@ -16,3 +16,10 @@ The features include:
 - MySQL: As the database for storing all system data.
 - Bootstrap Frontend: Seamlessly integrated with the backend for a smooth user experience.
 
+
+## 🧪 Languages and Tools
+<p align="center">
+  <a href="[#-introduction](https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png)">Introduction</a> · <a href="#-installation"></a> · <a href="#-faq">FAQ</a>   <a href="#-license">License</a> · <a href="#-credits">Credits</a>
+</p>
+
+.
